@@ -1,0 +1,43 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.caption{
+  color: whitesmoke;
+}
+
+hr{
+  border-color: orangered;
+  border-width: 2px;
+  width: 65px;
+}
+
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-danger{
+  background-color: orangered;
+  border-color: orangered;
+}
+
+.btn-danger:hover{
+  background-color: orangered;
+  border-color: orangered;
+}
+
+.buffer{
+  height: 9rem;
+}
